@@ -1,0 +1,89 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .navbar {
+    overflow: hidden;
+    background-color:rgba(163, 159, 152, 0.87);
+    display:flex;
+    text-decoration: none;
+
+    }
+    .navbar-topic {
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    display: flex;
+    flex-direction: row;
+    }
+    .navbar-topic a{
+        color:black;
+        text-decoration: none;
+    }
+    .n1{
+      height:20px;
+      width: 80px;
+      margin: 10px;
+      padding:10px;
+      text-decoration: none;
+    }
+    .hlogo{
+      width:50%;
+      display: flex;
+    }
+    .logo {
+      height:100px;
+      width:100px;
+      margin:0%;
+    }
+    .home-full-width-background {
+        background-color: aqua;
+        background-image: url(https://ceridianblog.files.wordpress.com/2015/08/training5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+    .home-full-width {
+        position: relative;   
+    }
+    
+    .home-button {
+        position: absolute;
+        top: -35px;
+        left: 70%;
+        z-index: 98;
+    }
+    .logo-icon {
+        height: 800px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        top: 50%;
+        position: relative;
+        transform: translateY(-50%);
+    }
+    .pillars{
+        background:white;
+      padding:20px;
+      margin: 50px;
+      }
+      .pillar{
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 40px;
+        text-align: left;
+        font-weight: 300px;
+        color: black;
+        padding: 20px;
+        margin:10px;
+      }
+      .pillarcontent{
+        font-family: 'Times New Roman', Times, serif;
+        font-size:25px;
+        line-height:25px;
+        text-align: left;
+        padding: 20px;
+        margin: 10px;
+      }
+    
+    
